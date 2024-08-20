@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label {
+    margin: 3rem 40%;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.search {
+    width: 60%;
+    height: 34px;
+    margin: 2.5rem 20%;
+    padding: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px 1fr));
+    margin: 2rem;
+    gap: 2.5rem;
+}
+
+.grid> .container {
+    border: 2px solid black;
+    width: 240px;
+    height: 240px;
+
+}
+
+.container.hide{
+    display: none;
+}
